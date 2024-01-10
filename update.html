@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+<style> .box{
+    text-transform: uppercase;
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 5px ridge black; */
+    }
+    
+    .header{
+    height: 80px;
+    width: auto;
+    background-color: rgb(31, 128, 128);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    /* margin-left: -10px; */
+    font-style: italic;
+    
+    }
+    
+    .links{
+    height:50px;
+    width: auto;
+    background-color: black;
+    display: flex;
+    font-size: 25px;
+    padding: 0 ;
+    /* margin-left: -10px; */
+    
+    
+        }
+    
+    
+    
+    
+    ul li{
+        display: inline-block;
+        
+       
+    }
+    ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+    
+    }
+    
+    ul li a:hover{
+        background-color: rgba(255,255,255,0.2);
+    }
+    h3{
+    font-size: 30px;
+    margin-left: 20px;
+    }
+    /* .input{
+    height: 400px;
+    width: 600px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding-top: 20px;
+    padding-left: 20px;
+    }
+     */
+    
+    </style>
+
+
+</head>
+<body>
+    <div class="box">
+        <div class="header">
+        <h1 class="display-2 pb-5">crud</h1>
+        </div>
+        <div class="links">
+        <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="add.html">add</a></li>
+        <li><a href="update.html">update</a></li>
+        <li><a href="DELETE.HTml">delete</a></li>
+        </ul>
+        </div>
+        <H3>edit record </H3>
+    <div class="containar ml-5">
+<div class="col-md-6 form-group border border-danger" >
+    <label>id</label>
+<input type="number" placeholder="ID" class="form-control" required autocomplete="on">
+
+<button type="button" class="btn btn-outline-primary mt-4 mb-4">SAVE </button><br>
+
+<label>name</label>
+<input type="name" placeholder="NAME" class="form-control" required autocomplete="on">
+<label for="address">ADDRESS</label>
+    <input type="text" placeholder="ADDRESS" class="form-control"
+     name="USERaddress" id="useraddress" required autocomplete="on" >
+
+     <div class="form-group">
+        <label>course</label>
+        <select class="form-control">
+        <option>B.TECH</option>
+        <option>B.TECH</option>
+        <option>B.TECH</option>
+        <option>B.TECH</option>
+        </select>
+             </div>
+             <label for="phone">NAME</label>
+             <input type="number" placeholder="NUMBER" class="form-control"
+              name="USERMOBILE" id="USERMOBILE" required autocomplete="on" >
+              <button type="button" class="btn btn-outline-primary mt-4 mb-5">UPDATE</button>
+            </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>
